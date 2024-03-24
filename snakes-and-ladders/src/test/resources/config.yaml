@@ -1,0 +1,6 @@
+players: 2
+boardSize: 100
+snakes: 10
+ladders: 10
+dices: 1
+movementStrategy: "MIN"

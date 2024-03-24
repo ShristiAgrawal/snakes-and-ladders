@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.sagrawal'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'org.yaml:snakeyaml:2.2'
+}
+
+test {
+    useJUnit()
+}
